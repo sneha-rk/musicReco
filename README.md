@@ -23,13 +23,12 @@ mswrmf.py - Recommender incorporating music sequence information into the traini
 
 
 ### Putting it all together
-Baselines.ipynb - Run the baselines, wrmf and bmf.
-Dataset is downloaded if not present and cleaned for use.
+Baselines.ipynb - Run the baselines, wrmf and bmf. Dataset is downloaded if not present and cleaned for use.
 run_ms.py - Script to run msbmf. Assumes data has been preprocessed and word vectors have been trained.
 run_msw.py - Script to run mswrmf. Assumes data has been preprocessed and word vectors have been trained.
 
 ### Others
-metrics.py
+metrics.py, 
 utils.py - Loading dataset and trained song vectors
 
  
