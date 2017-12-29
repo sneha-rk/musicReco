@@ -16,15 +16,18 @@ To run: python word2vec.py -train musics-sentences.txt -model song2vec.txt -cbow
 
 ### Recommendation Methods
 
-bmf.py  - BMF. 
-		- For WRMF, mrec may be used.
+bmf.py  - BMF. For WRMF, mrec may be used.
+
 msbmf.py - Recommender incorporating music sequence information into the training the latent factors using bmf.
+
 mswrmf.py - Recommender incorporating music sequence information into the training the latent factors using bmf. Based off the mrec library.
 
 
 ### Putting it all together
 Baselines.ipynb - Run the baselines, wrmf and bmf. Dataset is downloaded if not present and cleaned for use.
+
 run_ms.py - Script to run msbmf. Assumes data has been preprocessed and word vectors have been trained.
+
 run_msw.py - Script to run mswrmf. Assumes data has been preprocessed and word vectors have been trained.
 
 ### Others
