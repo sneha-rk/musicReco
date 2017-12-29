@@ -1,3 +1,5 @@
+# https://github.com/deborausujono/word2vecpy.git
+
 import argparse
 import math
 import struct
